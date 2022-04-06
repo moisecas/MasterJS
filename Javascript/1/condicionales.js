@@ -28,3 +28,30 @@ if (edad >=18){
 }else {
     console.log(nombre + "tiene" +edad+ "años, es menor de edad")
 }
+
+//operadores logicos 
+/*
+and(y) &&
+OR(O) ||
+NEGACIÓN: !
+*/
+var year = 201; 
+if (year != 2016){
+    console.log("el año no es 2016")
+}
+//and 
+if (year <= 2000 && year <= 2020 && year != 2018){ //si estas condiciones se cumple, haga
+    console.log("estamos en la era actual")
+
+}else {
+    console.log("era posmoderna")
+}
+
+//or
+if (year == 2008 || year == 2018){
+    console.log("el año acaba en 8")
+} else {
+    console.log("año no registrado") 
+}
+
+//switch, estructura de control 
